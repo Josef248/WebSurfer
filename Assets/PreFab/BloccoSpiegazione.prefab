@@ -3743,6 +3743,21 @@ PrefabInstance:
       propertyPath: m_textInfo.spaceCount
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2504331914151109224, guid: 7b0f0db256aa3124b83045a0ca1069c3,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2020198502083991864}
+    - target: {fileID: 2504331914151109224, guid: 7b0f0db256aa3124b83045a0ca1069c3,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: openMap
+      objectReference: {fileID: 0}
+    - target: {fileID: 2504331914151109224, guid: 7b0f0db256aa3124b83045a0ca1069c3,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b0f0db256aa3124b83045a0ca1069c3, type: 3}
 --- !u!1 &9143240438477545596 stripped
