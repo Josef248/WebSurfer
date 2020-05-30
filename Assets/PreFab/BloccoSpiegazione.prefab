@@ -620,6 +620,7 @@ GameObject:
   - component: {fileID: 9143240436966841194}
   - component: {fileID: 9143240436966841204}
   - component: {fileID: 9143240436966841195}
+  - component: {fileID: 2020198502083991864}
   m_Layer: 5
   m_Name: Background
   m_TagString: Untagged
@@ -688,6 +689,18 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &2020198502083991864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9143240436966841193}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a88d292f3a8f4bb438e5125c5eac8c83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &9143240436980997737
 GameObject:
   m_ObjectHideFlags: 0
@@ -3426,6 +3439,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 9143240436966841194}
     m_Modifications:
+    - target: {fileID: 4839860380260459380, guid: 31e9d07ddf1241847878bad34bc051a3,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2020198502083991864}
+    - target: {fileID: 4839860380260459380, guid: 31e9d07ddf1241847878bad34bc051a3,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: openMap
+      objectReference: {fileID: 0}
     - target: {fileID: 4839860380338790851, guid: 31e9d07ddf1241847878bad34bc051a3,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
