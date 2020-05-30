@@ -4,5 +4,17 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/SpiegazioneConcetto1.unity
+    guid: 3db2f2ee7e5a56e43b801cccf8b44d71
+  - enabled: 1
+    path: Assets/Scenes/SpiegazioneConcetto2.unity
+    guid: f36425e6e8123b048976f9369d737630
+  - enabled: 1
+    path: Assets/Scenes/SpiegazioneConcetto3.unity
+    guid: 30feb21e38c5f944eb64a160263644e6
+  - enabled: 1
+    path: Assets/Scenes/SpiegazioneConcetto4.unity
+    guid: 56e8c9ee0b62bff46a62238283eeefc2
   m_configObjects: {}
