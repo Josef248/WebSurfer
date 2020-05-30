@@ -316,6 +316,63 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6639005309745929512, guid: 85582fafdadfc5c4bb4056bdaeb8ae8a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9143240436887373104, guid: 85582fafdadfc5c4bb4056bdaeb8ae8a,
+        type: 3}
+      propertyPath: m_text
+      value: REDDIRECT
+      objectReference: {fileID: 0}
+    - target: {fileID: 9143240436887373104, guid: 85582fafdadfc5c4bb4056bdaeb8ae8a,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 9143240436887373104, guid: 85582fafdadfc5c4bb4056bdaeb8ae8a,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9143240436887373104, guid: 85582fafdadfc5c4bb4056bdaeb8ae8a,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9143240436887373104, guid: 85582fafdadfc5c4bb4056bdaeb8ae8a,
+        type: 3}
+      propertyPath: m_textInfo.pageCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9143240436887373104, guid: 85582fafdadfc5c4bb4056bdaeb8ae8a,
+        type: 3}
+      propertyPath: m_firstOverflowCharacterIndex
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 9143240436946972845, guid: 85582fafdadfc5c4bb4056bdaeb8ae8a,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 600
+      objectReference: {fileID: 0}
+    - target: {fileID: 9143240437323519017, guid: 85582fafdadfc5c4bb4056bdaeb8ae8a,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 22c3ef51a89a86d4ca938d31493511ef,
+        type: 3}
+    - target: {fileID: 9143240438477545596, guid: 85582fafdadfc5c4bb4056bdaeb8ae8a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9143240438488998608, guid: 85582fafdadfc5c4bb4056bdaeb8ae8a,
+        type: 3}
+      propertyPath: m_Text
+      value: "Ben fatto! \nSei riuscito a seguire il percorso giusto.\n Durante la
+        navigazione web ti capiter\xE0 spesso di imbatterti nei Link "
+      objectReference: {fileID: 0}
     - target: {fileID: 9143240438511534357, guid: 85582fafdadfc5c4bb4056bdaeb8ae8a,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target

@@ -2,19 +2,17 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
-public class MainMenu : MonoBehaviour
+public class CaricaScene : MonoBehaviour
 {
     public void openMap()
     {
-        SceneManager.LoadScene("scenaMappa");
+        SceneManager.LoadScene("Mappa");
     }
 
-    public void quitGame()
+    public void scenaC2()
     {
-        Application.Quit();
+        SceneManager.LoadScene("SpiegazioneConcetto2");
     }
-
 
 
 }
