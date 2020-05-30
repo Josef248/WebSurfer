@@ -18,12 +18,9 @@ EditorBuildSettings:
     path: Assets/Scenes/SpiegazioneConcetto4.unity
     guid: 56e8c9ee0b62bff46a62238283eeefc2
   - enabled: 1
-<<<<<<< HEAD
-=======
     path: Assets/Scenes/Home.unity
     guid: 6f85a919157064747b699a0b3b081203
   - enabled: 1
->>>>>>> 7fcca28343c23217ce8a5197244f54ec297883ed
     path: Assets/Scenes/Mappa.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
