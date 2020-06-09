@@ -9,10 +9,5 @@ public class CaricaScene : MonoBehaviour
         SceneManager.LoadScene("Mappa");
     }
 
-    public void scenaC2()
-    {
-        SceneManager.LoadScene("SpiegazioneConcetto2");
-    }
-
-
+  
 }
