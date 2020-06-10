@@ -284,13 +284,23 @@ PrefabInstance:
     - target: {fileID: 1954773621637506180, guid: 030a77a934609d14198de07e98c689ae,
         type: 3}
       propertyPath: stop
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 1954773621637506180, guid: 030a77a934609d14198de07e98c689ae,
         type: 3}
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1954773621637506180, guid: 030a77a934609d14198de07e98c689ae,
+        type: 3}
+      propertyPath: numberLink
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1954773621637506180, guid: 030a77a934609d14198de07e98c689ae,
+        type: 3}
+      propertyPath: winner
+      value: 
+      objectReference: {fileID: 2046345045}
     - target: {fileID: 1971616078569879743, guid: 030a77a934609d14198de07e98c689ae,
         type: 3}
       propertyPath: m_RootOrder
@@ -489,12 +499,12 @@ PrefabInstance:
     - target: {fileID: 6931640085056503731, guid: 030a77a934609d14198de07e98c689ae,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 222.1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6931640085056503731, guid: 030a77a934609d14198de07e98c689ae,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -220
+      value: -800
       objectReference: {fileID: 0}
     - target: {fileID: 6931640085056503731, guid: 030a77a934609d14198de07e98c689ae,
         type: 3}
@@ -526,14 +536,9 @@ PrefabInstance:
       propertyPath: punteggio
       value: 
       objectReference: {fileID: 932549694}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3775340346363875961, guid: 030a77a934609d14198de07e98c689ae, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 030a77a934609d14198de07e98c689ae, type: 3}
---- !u!1 &1153957830 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3775340345340504795, guid: 030a77a934609d14198de07e98c689ae,
-    type: 3}
-  m_PrefabInstance: {fileID: 1153957829}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1153957831 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 532019981891557366, guid: 030a77a934609d14198de07e98c689ae,
@@ -558,22 +563,6 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 1153957829}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1153957844
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1153957830}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e27a7fe50f4d10242b9cdd5c1497514d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  FoodPrefab: {fileID: 1153957831}
-  layerMask:
-    serializedVersion: 2
-    m_Bits: 32
 --- !u!1 &1447678545
 GameObject:
   m_ObjectHideFlags: 0
