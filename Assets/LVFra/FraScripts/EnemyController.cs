@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Globalization;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -14,12 +15,24 @@ public class EnemyController : MonoBehaviour {
 	public Button winButton;
 	public float fireRate = 0.997f;
 
+	//agg
+	/*public Image gameOver;
+	public Button gameOver1;
+	public Button gameOver2;
+	public static bool isPlayerDead = false;*/
+
+
 	// Use this for initialization
 	void Start () {
+
+		//gameOver = GetComponent<Image>();
+		//gameOver.enabled = false;
+
 		winText.enabled = false;
 		InvokeRepeating ("MoveEnemy", 0.1f, 0.3f);
 		enemyHolder = GetComponent<Transform> ();
 	}
+
 
 	void MoveEnemy()
 	{
@@ -50,6 +63,7 @@ public class EnemyController : MonoBehaviour {
 
 		}
 
+
 		//Fatto da me
 		/*if (enemyHolder.childCount == 0) {
 			winText.enabled = true;
@@ -63,7 +77,7 @@ public class EnemyController : MonoBehaviour {
 
 		foreach (Transform enemy in enemyHolder)
 		{
-			if (enemy.position.x < -2.4 || enemy.position.x > 2.4)
+			if (enemy.position.x < -2 || enemy.position.x > 2)
 			{
 				speed = -speed;
 				enemyHolder.position += Vector3.down * 0.5f;
@@ -91,6 +105,8 @@ public class EnemyController : MonoBehaviour {
 			winText.enabled = true;
 			winButton.gameObject.SetActive(true);
 		}
+
+
 	}
 
 

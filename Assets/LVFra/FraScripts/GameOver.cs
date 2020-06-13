@@ -10,6 +10,7 @@ public class GameOver : MonoBehaviour {
 
 	private Image gameOver; 
 	public Button gameOver1;
+	public Button gameOver2;
 	//private Text gameOver2;
 
 	void Start () {
@@ -28,9 +29,21 @@ public class GameOver : MonoBehaviour {
 			//gameOver1.enabled = true;
 			//gameOver2.enabled = true;
 
-			gameOver1.gameObject.SetActive(true);
+			gameOver1.gameObject.SetActive(true); 
+			gameOver2.gameObject.SetActive(true);
 		}
+        /*else
+        {
+			Time.timeScale = 1;
+			gameOver.enabled = false;
+			//gameOver1.enabled = true;
+			//gameOver2.enabled = true;
+
+			gameOver1.gameObject.SetActive(false);
+			gameOver2.gameObject.SetActive(false);
+		}*/
 	}
+}
 
 
 	/*private GameObject gameOver;
@@ -48,4 +61,4 @@ public class GameOver : MonoBehaviour {
 			gameOver.SetActive(true);
 		}
 	}*/
-}
+
