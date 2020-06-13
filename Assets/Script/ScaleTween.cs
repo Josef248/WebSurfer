@@ -37,6 +37,7 @@ public class ScaleTween : MonoBehaviour
     public void DestroyMe()
     {
         Destroy(gameObject);
+        //DestroyImmediate(gameObject, true);
     }
 
     public void countLink()
@@ -50,8 +51,8 @@ public class ScaleTween : MonoBehaviour
 
     public void SaliPunteggio()
     {
-        int puntiOra = PlayerPrefs.GetInt("HighScore");
-        PlayerPrefs.SetInt("HighScore", punteggioInt + puntiOra);
+        int puntiOra = PlayerPrefs.GetInt("Score");
+        PlayerPrefs.SetInt("Score", punteggioInt + puntiOra);
 
     }
 
