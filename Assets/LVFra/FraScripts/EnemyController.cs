@@ -10,7 +10,7 @@ public class EnemyController : MonoBehaviour {
 	public float speed;
 
 	public GameObject shot;
-	public GameObject shot2;  //aggiunto da me
+	public GameObject shot2;  //aggiunto
 	public Image winText;
 	public Button winButton;
 	public float fireRate = 0.997f;
@@ -45,7 +45,7 @@ public class EnemyController : MonoBehaviour {
 				return;
 			}
 
-			//EnemyBulletController called too?
+			//EnemyBulletController
 			if (Random.value > fireRate) {
 				Instantiate (shot, enemy.position, enemy.rotation);
 			}
@@ -70,7 +70,7 @@ public class EnemyController : MonoBehaviour {
 		}*/
 	}
 
-	//Funzione creata da me
+	//Funzione top
 	void funzioneF()
     {
 		enemyHolder.position += Vector3.right * speed;
@@ -84,7 +84,7 @@ public class EnemyController : MonoBehaviour {
 				return;
 			}
 
-			//EnemyBulletController called too?
+			//EnemyBulletController
 			if (Random.value > fireRate - 0.3 )
 			{
 				Instantiate(shot2, enemy.position, enemy.rotation);
