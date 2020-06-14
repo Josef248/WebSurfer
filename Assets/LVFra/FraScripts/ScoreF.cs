@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Score : MonoBehaviour
+public class ScoreF : MonoBehaviour
 {
     public Text punteggio;
     public static int punteggioInt = 0;

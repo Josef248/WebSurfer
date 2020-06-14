@@ -603,6 +603,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ccfc2de93c363c14a9b095b09c1369f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameOver: {fileID: 0}
   gameOver1: {fileID: 0}
   gameOver2: {fileID: 0}
 --- !u!224 &228438734 stripped
@@ -808,6 +809,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ccfc2de93c363c14a9b095b09c1369f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameOver: {fileID: 0}
   gameOver1: {fileID: 0}
   gameOver2: {fileID: 0}
 --- !u!114 &300168109
@@ -1275,6 +1277,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa768dbf4c0817d4882059c880ca0168, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyHolder: {fileID: 0}
   speed: 0.15
   shot: {fileID: 1345511430367309131, guid: 8dcd4281fd334d047a7411d39381eed0, type: 3}
   shot2: {fileID: 1897008434995647906, guid: 5064bfc858efa0a45aec39252ff63abe, type: 3}
@@ -1527,6 +1530,7 @@ MonoBehaviour:
   gameOver: {fileID: 606180631}
   gameOver1: {fileID: 1086059095}
   gameOver2: {fileID: 601397827}
+  puntiOra: 0
 --- !u!114 &601397827
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1668,6 +1672,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ccfc2de93c363c14a9b095b09c1369f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameOver: {fileID: 0}
   gameOver1: {fileID: 1086059095}
   gameOver2: {fileID: 601397827}
 --- !u!114 &606180631
@@ -1859,6 +1864,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c67666b509993499bd491c778c0128, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  puntiOra: 0
 --- !u!114 &933644554
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2109,6 +2115,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21c67666b509993499bd491c778c0128, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  puntiOra: 0
 --- !u!114 &1086059095
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2229,6 +2236,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e32b1cd7d812a0f4cac2c23334a9cafc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  puntiOra: 0
 --- !u!4 &1139158291
 Transform:
   m_ObjectHideFlags: 0
@@ -2546,7 +2554,7 @@ GameObject:
   - component: {fileID: 1233618271}
   m_Layer: 0
   m_Name: Muri
-  m_TagString: Untagged
+  m_TagString: Base
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3421,6 +3429,7 @@ MonoBehaviour:
   gameOver: {fileID: 606180631}
   gameOver1: {fileID: 1086059095}
   gameOver2: {fileID: 601397827}
+  puntiOra: 0
 --- !u!224 &1793844651 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 3525120459976125631, guid: 6fd026c8f0726744691e6d9895b15c8a,
@@ -3747,12 +3756,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 064d04c3a8b44bc4389b6886adc9bb39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
   speed: 0.1
   maxBound: 2.5
   minBound: -2.5
   shot: {fileID: 4809903548652695072, guid: fa04062dc2a920f4a8cb3a5c9cf364fd, type: 3}
   shotSpawn: {fileID: 2062472812}
   fireRate: 0.5
+  nextFire: 0
 --- !u!114 &2062472809
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3765,6 +3776,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b901165681235af4590b5a81d561743c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  touchPosition: {x: 0, y: 0, z: 0}
+  rb: {fileID: 0}
+  direction: {x: 0, y: 0, z: 0}
+  moveSpeed: 5
 --- !u!114 &2062472810
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3777,6 +3792,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61c81dd6f53cd884cb9fb3e2d604fe3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveAllowed: 0
+  col: {fileID: 0}
 --- !u!224 &2062472812 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 1098235271478897570, guid: 25f09f80914cede4b931a9954ab15390,
