@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class movement : MonoBehaviour
+public class movementF : MonoBehaviour
 {
 
     bool moveAllowed;
