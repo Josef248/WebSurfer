@@ -17,7 +17,34 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/lv2.unity
     guid: e643c88c8c29b4045a9e2d01e074dc72
+<<<<<<< HEAD
   - enabled: 1
     path: Assets/Scenes/lv3.unity
     guid: 9d48d000be6286241894242cd206b096
+=======
+  - enabled: 1
+    path: Assets/Scenes/LV4G.unity
+    guid: b80b80f20bf53ba4485e398fb7a28fa7
+  - enabled: 1
+    path: Assets/Scenes/SpiegazioneLv1.unity
+    guid: ca7f30c9382e72d48b7c255d6833dd03
+  - enabled: 1
+    path: Assets/Scenes/SpiegazioneLv2.unity
+    guid: ec3e78b79beb21f4fbbd20b6e80aa21b
+  - enabled: 1
+    path: Assets/Scenes/SpiegazioneLv3.unity
+    guid: 197fac5af4bf1db44aa9f59b716d02d6
+  - enabled: 1
+    path: Assets/Scenes/SpiegazioneLv4.unity
+    guid: 77641bbd3683c7b4699534d21b92a272
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/lv3.unity
+    guid: 9d48d000be6286241894242cd206b096
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+>>>>>>> 1ec14dd208163a6a2d0ced77b67e942a47eff8d8
   m_configObjects: {}

@@ -52,7 +52,7 @@ public class MovementPlayerF : Captcha
 
         if (coll.gameObject.tag == "Respawn")
         {
-            //SceneManager.LoadScene( "lv4G" );
+
         }
         /*if (coll.gameObject.tag == "lettera")
         {
