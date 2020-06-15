@@ -322,6 +322,16 @@ PrefabInstance:
       propertyPath: m_textInfo.pageCount
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9143240438477545596, guid: 85582fafdadfc5c4bb4056bdaeb8ae8a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9143240438611037328, guid: 85582fafdadfc5c4bb4056bdaeb8ae8a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9143240438883526464, guid: 85582fafdadfc5c4bb4056bdaeb8ae8a,
         type: 3}
       propertyPath: m_RenderMode

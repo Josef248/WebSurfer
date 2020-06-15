@@ -26,13 +26,11 @@ public class CaricaScene : MonoBehaviour
 
     public void openMap()
     {
-        PlayerPrefs.SetInt("Tempo", 0);
         SceneManager.LoadScene("Mappa");
     }
 
     public void openHome()
     {
-        PlayerPrefs.SetInt("Tempo", 0);
         SceneManager.LoadScene("Home");
     }
 
@@ -68,6 +66,7 @@ public class CaricaScene : MonoBehaviour
     public void playGame1()
     {
         Debug.Log("Caricamento lv1");
+        PlayerPrefs.SetInt("Tempo", 0);
         SceneManager.LoadScene("lv1");
     }
 

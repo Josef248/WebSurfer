@@ -46,7 +46,7 @@ public class MovementPlayerF : MonoBehaviour
 
         if (coll.gameObject.tag == "Respawn")
         {
-            Application.LoadLevel( "lv4F" );
+            //Application.LoadLevel( "lv4F" );
         }
     }
 }
