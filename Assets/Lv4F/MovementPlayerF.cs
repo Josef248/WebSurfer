@@ -65,7 +65,9 @@ public class MovementPlayerF : Captcha
     {
         if (coll.gameObject.tag == "lettera")
         {
-            Destroy(coll);
+            //Destroy(coll);
+            Destroy(coll.GetComponent<TextMeshProUGUI>());
+            //Destroy(this.l2);
             char c = coll.GetComponent<TextMeshProUGUI>().text[0];
             verifica(c);
             //Destroy(this);
