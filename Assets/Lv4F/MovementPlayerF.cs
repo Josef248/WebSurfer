@@ -3,11 +3,17 @@ using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.Net.NetworkInformation;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using TMPro;
+using System;
 
-public class MovementPlayerF : MonoBehaviour
+public class MovementPlayerF : Captcha
 {
-
+    int i = 0;
+    int score = 0;
     public bool player;
+    int counter;
+    public TextMeshProUGUI[] txt;
     // Start is called before the first frame update
     void Start()
     {
@@ -46,7 +52,45 @@ public class MovementPlayerF : MonoBehaviour
 
         if (coll.gameObject.tag == "Respawn")
         {
-            Application.LoadLevel( "lv4F" );
+            //SceneManager.LoadScene( "lv4G" );
+        }
+        /*if (coll.gameObject.tag == "lettera")
+        {
+            Debug.Log("aooo");
+            //Destroy(this.l);
+        }*/
+    }
+
+    private void OnTriggerEnter2D(Collider2D coll)
+    {
+        if (coll.gameObject.tag == "lettera")
+        {
+            Destroy(coll);
+            char c = coll.GetComponent<TextMeshProUGUI>().text[0];
+            verifica(c);
+            //Destroy(this);
         }
     }
+
+    public void verifica(char a)
+    {
+        char[] lett = { 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z' };
+        //char[] strVerify = new char[4];
+        char c;
+
+        if (a == lett[arr[i]])
+        {
+            score++;
+            //strVerify[i] = lett[arr[i]];
+            c = lett[arr[i]];
+            txt[i].text = c.ToString();
+        }
+        else
+        {
+            SceneManager.LoadScene("lv4G");
+        }
+
+        i++;
+    }
+
 }
