@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class RestartLevel : MonoBehaviour {
 
-	int puntiOra;
+	//int puntiOra;
 	//int puntiOra = PlayerPrefs.GetInt("HighScore");
 	//private Button Win; //agg
 
@@ -17,7 +17,7 @@ public class RestartLevel : MonoBehaviour {
 			//Win = GetComponent<Button>();
 			//Win.enabled = true;
 
-			puntiOra = 0;
+			//puntiOra = 0;
 			//PlayerPrefs.SetInt("HighScore", punteggioInt + puntiOra);
 
 			//PlayerScore.playerScore = 0;

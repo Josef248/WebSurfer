@@ -6,12 +6,12 @@ using UnityEngine.SceneManagement;
 public class LoadScene : MonoBehaviour
 {
 
-    int puntiOra;
+    //int puntiOra;
 
 
     public void Load()
     {
-        puntiOra = 0;
+        //puntiOra = 0;
         GameOver.isPlayerDead = false;
         Time.timeScale = 1;
 

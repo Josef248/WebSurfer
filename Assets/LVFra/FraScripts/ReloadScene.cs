@@ -11,7 +11,7 @@ public class ReloadScene : MonoBehaviour
     public Button gameOver1;
     public Button gameOver2;
 
-    int puntiOra;
+    //int puntiOra;
 
     // Start is called before the first frame update
     void Start()
@@ -29,7 +29,7 @@ public class ReloadScene : MonoBehaviour
     public void ReloadCurrent()
     {
 
-        puntiOra = 0;
+        //puntiOra = 0;
 
         GameOver.isPlayerDead = false;
         Time.timeScale = 1;
