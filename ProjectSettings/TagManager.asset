@@ -7,6 +7,8 @@ TagManager:
   - browser
   - window
   - Canvas
+  - pg
+  - lettera
   layers:
   - Default
   - TransparentFX
