@@ -36,6 +36,7 @@ public class CaricaScene : MonoBehaviour
 
 
 
+
     public void spiegazioneLv1()
     {
         Debug.Log("Caricamento spiega lv1");
@@ -59,6 +60,34 @@ public class CaricaScene : MonoBehaviour
         Debug.Log("Caricamento spiega lv4");
         SceneManager.LoadScene("SpiegazioneLv4");
     }
+
+
+
+
+    public void concettoLv1()
+    {
+        Debug.Log("Caricamento concetto lv1");
+        SceneManager.LoadScene("Concetto1");
+    }
+
+    public void concettoLv2()
+    {
+        Debug.Log("Caricamento concetto lv2");
+        SceneManager.LoadScene("Concetto2");
+    }
+
+    public void concettoLv3()
+    {
+        Debug.Log("Caricamento concetto lv3");
+        SceneManager.LoadScene("Concetto3");
+    }
+
+    public void concettoLv4()
+    {
+        Debug.Log("Caricamento concetto lv4");
+        SceneManager.LoadScene("Concetto4");
+    }
+
 
 
 
