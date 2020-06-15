@@ -63,4 +63,5 @@ public class Captcha : MonoBehaviour
         //l2.transform.localScale = new Vector2(1,1);
     }
 
-    }
+
+}

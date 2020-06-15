@@ -15,8 +15,8 @@ public class moveTo : MonoBehaviour
     {
         Vector2 targetPosition = new Vector2(-4.19f, -2.2f);
         if ((Vector2)transform.position != targetPosition)
-        {   
-        transform.position = Vector2.MoveTowards(transform.position, targetPosition, 1 * Time.deltaTime);
+        {
+            transform.position = Vector2.MoveTowards(transform.position, targetPosition, 1 * Time.deltaTime);
         }
     }
 
