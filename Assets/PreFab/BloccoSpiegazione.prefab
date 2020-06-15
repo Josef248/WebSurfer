@@ -620,7 +620,7 @@ GameObject:
   - component: {fileID: 9143240436966841194}
   - component: {fileID: 9143240436966841204}
   - component: {fileID: 9143240436966841195}
-  - component: {fileID: 2020198502083991864}
+  - component: {fileID: 4549355100076721268}
   m_Layer: 5
   m_Name: Background
   m_TagString: Untagged
@@ -689,7 +689,7 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &2020198502083991864
+--- !u!114 &4549355100076721268
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3443,7 +3443,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 2020198502083991864}
+      objectReference: {fileID: 4549355100076721268}
     - target: {fileID: 4839860380260459380, guid: 31e9d07ddf1241847878bad34bc051a3,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
@@ -3747,7 +3747,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 2020198502083991864}
+      objectReference: {fileID: 4549355100076721268}
     - target: {fileID: 2504331914151109224, guid: 7b0f0db256aa3124b83045a0ca1069c3,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
