@@ -12,12 +12,12 @@ GameObject:
   - component: {fileID: 190841134712315959}
   - component: {fileID: 190841134712315958}
   m_Layer: 0
-  m_Name: SchermataImpostazionii
+  m_Name: SC_IMP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &190841134712315957
 RectTransform:
   m_ObjectHideFlags: 0
