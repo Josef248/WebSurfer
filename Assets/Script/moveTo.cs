@@ -6,8 +6,8 @@ using UnityEngine;
 
 public class moveTo : Captcha
 {
-    int i = 0;
-    int score=0;
+    //int i = 0;
+   // int score=0;
 
     // Start is called before the first frame update
     void Start()
