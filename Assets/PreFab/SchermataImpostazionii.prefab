@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 190841134712315959}
   - component: {fileID: 190841134712315958}
   m_Layer: 0
-  m_Name: SchermataImpostazioni
+  m_Name: SchermataImpostazionii
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
