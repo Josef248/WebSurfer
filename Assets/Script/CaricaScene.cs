@@ -37,6 +37,33 @@ public class CaricaScene : MonoBehaviour
 
 
 
+    public void tutorialLv1()
+    {
+        Debug.Log("Caricamento tutorial Lv1");
+        SceneManager.LoadScene("TutorialLv1");
+    }
+
+    public void tutorialLv2()
+    {
+        Debug.Log("Caricamento tutorial Lv2");
+        SceneManager.LoadScene("TutorialLv2");
+    }
+
+    public void tutorialLv3()
+    {
+        Debug.Log("Caricamento tutorial Lv2");
+        SceneManager.LoadScene("TutorialLv3");
+    }
+
+    public void tutorialLv4()
+    {
+        Debug.Log("Caricamento tutorial Lv2");
+        SceneManager.LoadScene("TutorialLv4");
+    }
+
+
+
+
     public void spiegazioneLv1()
     {
         Debug.Log("Caricamento spiega lv1");
