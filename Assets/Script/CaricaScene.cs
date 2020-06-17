@@ -144,16 +144,6 @@ public class CaricaScene : MonoBehaviour
         SceneManager.LoadScene("lv4");
     }
 
-   /*
-    public void riprova()
-    {
-        SceneManager.LoadScene("lv1");
-    }
-
-    public void mappa()
-    {
-        SceneManager.LoadScene("Mappa");
-    }*/
 
     public void ricaricaScena()
     {

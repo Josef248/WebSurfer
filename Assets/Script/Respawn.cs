@@ -127,10 +127,10 @@ public class Respawn : MonoBehaviour
 
     public void isHighscore()
     {
-        int record = PlayerPrefs.GetInt("Highscore");
-        if (record < PlayerPrefs.GetInt("Score"))
+        int record = PlayerPrefs.GetInt("Highscore1");
+        if (record < PlayerPrefs.GetInt("Score1"))
         {
-            PlayerPrefs.SetInt("Highscore", PlayerPrefs.GetInt("Score"));
+            PlayerPrefs.SetInt("Highscore1", PlayerPrefs.GetInt("Score1"));
         }
     }
 

@@ -28,8 +28,12 @@ public class Spawner : MonoBehaviour
         m = 0;
         TimerReset();
         TimerStart();
-        Instantiate(page, GetRandomPosition(), Quaternion.identity);
-        Instantiate(page, GetRandomPosition(), Quaternion.identity);
+
+        GameObject pagina1 = Instantiate(page, GetRandomPosition(), Quaternion.identity);
+        pagina1.transform.SetParent(GameObject.FindGameObjectWithTag("Background").transform, false);
+
+        GameObject pagina2 = Instantiate(page, GetRandomPosition(), Quaternion.identity);
+        pagina2.transform.SetParent(GameObject.FindGameObjectWithTag("Background").transform, false);
     }
 
     public void TimerStart()
@@ -71,6 +75,7 @@ public class Spawner : MonoBehaviour
         if (isRunning)
         {
             Text.text = (secondsInt*10).ToString();
+            PlayerPrefs.SetInt("Score2", secondsInt * 10);      //Salvataggio dello score
 
             if (secondsInt == 5 && minutesInt == m)
             {
@@ -87,7 +92,9 @@ public class Spawner : MonoBehaviour
 
     public void spawn()
     {
-        Instantiate(page, GetRandomPosition(), Quaternion.identity);
+        GameObject pagina = Instantiate(page, GetRandomPosition(), Quaternion.identity);
+        pagina.transform.SetParent(GameObject.FindGameObjectWithTag("Background").transform, false);
+        
     }
 
     Vector2 GetRandomPosition()
