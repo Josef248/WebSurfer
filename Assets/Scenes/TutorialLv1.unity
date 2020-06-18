@@ -317,6 +317,11 @@ PrefabInstance:
       propertyPath: m_textInfo.pageCount
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9143240438883526464, guid: 85582fafdadfc5c4bb4056bdaeb8ae8a,
+        type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 15239492}
     - target: {fileID: 9143240438883526465, guid: 85582fafdadfc5c4bb4056bdaeb8ae8a,
         type: 3}
       propertyPath: m_LocalPosition.x
