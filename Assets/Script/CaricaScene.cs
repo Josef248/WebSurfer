@@ -135,6 +135,8 @@ public class CaricaScene : MonoBehaviour
     public void playGame3()
     {
         Debug.Log("Caricamento lv3");
+        GameOver.isPlayerDead = false;
+        Time.timeScale = 1f;
         SceneManager.LoadScene("lv3");
     }
 
@@ -151,6 +153,8 @@ public class CaricaScene : MonoBehaviour
         PlayerPrefs.SetInt("Tempo", tempo);
 
         Debug.LogWarning("Tempo salvato : " + tempo);
+
+        GameOver.isPlayerDead = false;
 
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         Time.timeScale = 1f;

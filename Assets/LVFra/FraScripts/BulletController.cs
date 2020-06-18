@@ -23,9 +23,9 @@ public class BulletController : MonoBehaviour {
 
 		if (other.tag == "Enemy") {
 
-			int puntiOra = PlayerPrefs.GetInt("HighScore");
+			int puntiOra = PlayerPrefs.GetInt("Score3");
 			puntiOra += 10;
-			PlayerPrefs.SetInt("HighScore", puntiOra);
+			PlayerPrefs.SetInt("Score3", puntiOra);
 			
 			Destroy (other.gameObject);
 			Destroy(gameObject);
