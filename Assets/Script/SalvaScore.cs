@@ -7,11 +7,12 @@ public class SalvaScore : MonoBehaviour
 {
     public TextMeshProUGUI score;
     public TextMeshProUGUI Highscore;
+    public int numeroLivello;
 
     void Start()
     {
-        score.text = PlayerPrefs.GetInt("Score").ToString();
-        Highscore.text = PlayerPrefs.GetInt("Highscore").ToString();
+        score.text = PlayerPrefs.GetInt("Score" + numeroLivello).ToString();
+        Highscore.text = PlayerPrefs.GetInt("Highscore" + numeroLivello).ToString();
     }
 
    

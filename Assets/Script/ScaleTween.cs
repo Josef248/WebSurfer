@@ -51,8 +51,8 @@ public class ScaleTween : MonoBehaviour
 
     public void SaliPunteggio()
     {
-        int puntiOra = PlayerPrefs.GetInt("Score");
-        PlayerPrefs.SetInt("Score", punteggioInt + puntiOra);
+        int puntiOra = PlayerPrefs.GetInt("Score1");
+        PlayerPrefs.SetInt("Score1", punteggioInt + puntiOra);
 
     }
 

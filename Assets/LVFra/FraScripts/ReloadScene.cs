@@ -7,6 +7,8 @@ using System.Globalization;
 
 public class ReloadScene : MonoBehaviour
 {
+
+
     public Image gameOver;
     public Button gameOver1;
     public Button gameOver2;

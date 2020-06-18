@@ -293,6 +293,26 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 6196282018725345659, guid: a40a2b19387de4d449fb146acfd1cf38,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6196282018925986581, guid: a40a2b19387de4d449fb146acfd1cf38,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6196282019906854550, guid: a40a2b19387de4d449fb146acfd1cf38,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6196282020018959271, guid: a40a2b19387de4d449fb146acfd1cf38,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7032698061758919896, guid: a40a2b19387de4d449fb146acfd1cf38,
         type: 3}
       propertyPath: m_Camera

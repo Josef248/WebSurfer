@@ -37,6 +37,33 @@ public class CaricaScene : MonoBehaviour
 
 
 
+    public void tutorialLv1()
+    {
+        Debug.Log("Caricamento tutorial Lv1");
+        SceneManager.LoadScene("TutorialLv1");
+    }
+
+    public void tutorialLv2()
+    {
+        Debug.Log("Caricamento tutorial Lv2");
+        SceneManager.LoadScene("TutorialLv2");
+    }
+
+    public void tutorialLv3()
+    {
+        Debug.Log("Caricamento tutorial Lv2");
+        SceneManager.LoadScene("TutorialLv3");
+    }
+
+    public void tutorialLv4()
+    {
+        Debug.Log("Caricamento tutorial Lv2");
+        SceneManager.LoadScene("TutorialLv4");
+    }
+
+
+
+
     public void spiegazioneLv1()
     {
         Debug.Log("Caricamento spiega lv1");
@@ -108,6 +135,8 @@ public class CaricaScene : MonoBehaviour
     public void playGame3()
     {
         Debug.Log("Caricamento lv3");
+        GameOver.isPlayerDead = false;
+        Time.timeScale = 1f;
         SceneManager.LoadScene("lv3");
     }
 
@@ -117,23 +146,15 @@ public class CaricaScene : MonoBehaviour
         SceneManager.LoadScene("lv4");
     }
 
-   /*
-    public void riprova()
-    {
-        SceneManager.LoadScene("lv1");
-    }
-
-    public void mappa()
-    {
-        SceneManager.LoadScene("Mappa");
-    }*/
 
     public void ricaricaScena()
     {
         int tempo = (int) Time.time;
         PlayerPrefs.SetInt("Tempo", tempo);
 
-        Debug.LogWarning("Tempo salvato : " + tempo);
+        //Debug.LogWarning("Tempo salvato : " + tempo);
+
+        GameOver.isPlayerDead = false;
 
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         Time.timeScale = 1f;

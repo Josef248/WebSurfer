@@ -104,6 +104,8 @@ public class EnemyController : MonoBehaviour {
 
 			winText.enabled = true;
 			winButton.gameObject.SetActive(true);
+
+
 		}
 
 
