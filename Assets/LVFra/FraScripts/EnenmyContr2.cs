@@ -108,6 +108,7 @@ public class EnenmyContr2 : MonoBehaviour
 		{
 			Destroy(GameObject.FindWithTag("Player"));
 			Destroy(GameObject.FindWithTag("Enemy"));
+			Destroy(GameObject.FindWithTag("Bullet"));
 
 			Time.timeScale = 0f;
 			muri.SetActive(false);

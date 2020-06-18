@@ -152,7 +152,7 @@ public class CaricaScene : MonoBehaviour
         int tempo = (int) Time.time;
         PlayerPrefs.SetInt("Tempo", tempo);
 
-        Debug.LogWarning("Tempo salvato : " + tempo);
+        //Debug.LogWarning("Tempo salvato : " + tempo);
 
         GameOver.isPlayerDead = false;
 
