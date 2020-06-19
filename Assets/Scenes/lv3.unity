@@ -2017,7 +2017,7 @@ MonoBehaviour:
   shot2: {fileID: 1897008434995647906, guid: 5064bfc858efa0a45aec39252ff63abe, type: 3}
   muri: {fileID: 1233618270}
   winner: {fileID: 1024443078}
-  fireRate: 0.99
+  fireRate: 0.97
 --- !u!1001 &491572684
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -277,6 +277,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3615335059848750637, guid: cbf462f7cf91db34ca41440003209623,
+        type: 3}
+      propertyPath: m_Text
+      value: "Wow! E chi ti ferma ora? \nIn questo livello hai affrontato i temibili
+        ANNUNCI.\n\nOgno volta che visiti una pagina Web noterai testi e bottoni
+        diversi dal solito, presta molta cura prima di selezionarli, perch\xE8 potrebbero
+        trattarsi di annunci pubblicitar\xEC pronti a reindirizzarti su pagine nuove.\n\nPerci\xF2
+        occhio sempre attento, non sono una minaccia effettiva ma possono facilmente
+        rubarti del tempo prezioso."
+      objectReference: {fileID: 0}
     - target: {fileID: 3615335060178265016, guid: cbf462f7cf91db34ca41440003209623,
         type: 3}
       propertyPath: m_Name
@@ -415,22 +425,27 @@ PrefabInstance:
     - target: {fileID: 3615335061470806477, guid: cbf462f7cf91db34ca41440003209623,
         type: 3}
       propertyPath: m_textInfo.characterCount
-      value: 0
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 3615335061470806477, guid: cbf462f7cf91db34ca41440003209623,
         type: 3}
       propertyPath: m_textInfo.wordCount
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3615335061470806477, guid: cbf462f7cf91db34ca41440003209623,
         type: 3}
       propertyPath: m_textInfo.lineCount
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3615335061470806477, guid: cbf462f7cf91db34ca41440003209623,
         type: 3}
       propertyPath: m_textInfo.pageCount
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3615335061470806477, guid: cbf462f7cf91db34ca41440003209623,
+        type: 3}
+      propertyPath: m_text
+      value: ANNUNCI
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cbf462f7cf91db34ca41440003209623, type: 3}
