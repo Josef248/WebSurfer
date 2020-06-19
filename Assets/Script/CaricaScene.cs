@@ -122,7 +122,8 @@ public class CaricaScene : MonoBehaviour
     public void playGame1()
     {
         Debug.Log("Caricamento lv1");
-        PlayerPrefs.SetInt("Tempo", 0);
+        int tempo = (int)Time.time;
+        PlayerPrefs.SetInt("Tempo", tempo);
         SceneManager.LoadScene("lv1");
     }
 
