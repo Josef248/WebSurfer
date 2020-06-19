@@ -12,16 +12,16 @@ public class moveTo : Captcha
     // Start is called before the first frame update
     void Start()
     {
-        transform.position = new Vector2(3.36f, -2.2f);
+        transform.position = new Vector2(3.36f, 0);
     }
 
     // Update is called once per frame
     void Update()
     {
-        Vector2 targetPosition = new Vector2(-4.19f, -2.2f);
+        Vector2 targetPosition = new Vector2(-4.19f, 0);
         if ((Vector2)transform.position != targetPosition)
         {
-            transform.position = Vector2.MoveTowards(transform.position, targetPosition, 1 * Time.deltaTime);
+            transform.position = Vector2.MoveTowards(transform.position, targetPosition, 3 * Time.deltaTime);
         }
     }
 
