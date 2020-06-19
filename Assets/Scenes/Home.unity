@@ -121,6 +121,12 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &824984908 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5822567315862809234, guid: b8d43ba89f900cd45b56bd468e103ffd,
+    type: 3}
+  m_PrefabInstance: {fileID: 2699667594137096261}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &862523822
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -357,6 +363,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2407010838215188860, guid: b8d43ba89f900cd45b56bd468e103ffd,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 824984908}
+    - target: {fileID: 2407010838215188860, guid: b8d43ba89f900cd45b56bd468e103ffd,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetActive
+      objectReference: {fileID: 0}
     - target: {fileID: 2699667594211519770, guid: b8d43ba89f900cd45b56bd468e103ffd,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -471,6 +487,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: HomeCanvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 2699667595492583357, guid: b8d43ba89f900cd45b56bd468e103ffd,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 824984908}
+    - target: {fileID: 2699667595492583357, guid: b8d43ba89f900cd45b56bd468e103ffd,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetActive
       objectReference: {fileID: 0}
     - target: {fileID: 2875489470813866671, guid: b8d43ba89f900cd45b56bd468e103ffd,
         type: 3}
