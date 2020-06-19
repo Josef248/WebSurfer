@@ -135,6 +135,8 @@ public class CaricaScene : MonoBehaviour
     public void playGame3()
     {
         Debug.Log("Caricamento lv3");
+        GameOver.isPlayerDead = false;
+        Time.timeScale = 1f;
         SceneManager.LoadScene("lv3");
     }
 
@@ -144,23 +146,15 @@ public class CaricaScene : MonoBehaviour
         SceneManager.LoadScene("lv4");
     }
 
-   /*
-    public void riprova()
-    {
-        SceneManager.LoadScene("lv1");
-    }
-
-    public void mappa()
-    {
-        SceneManager.LoadScene("Mappa");
-    }*/
 
     public void ricaricaScena()
     {
         int tempo = (int) Time.time;
         PlayerPrefs.SetInt("Tempo", tempo);
 
-        Debug.LogWarning("Tempo salvato : " + tempo);
+        //Debug.LogWarning("Tempo salvato : " + tempo);
+
+        GameOver.isPlayerDead = false;
 
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         Time.timeScale = 1f;

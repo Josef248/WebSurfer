@@ -23,6 +23,7 @@ public class GameOver : MonoBehaviour {
 	}
 
 	void Update () {
+
 		if (isPlayerDead) {
 			Time.timeScale = 0;
 			gameOver.enabled = true;

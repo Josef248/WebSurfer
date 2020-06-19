@@ -10,15 +10,15 @@ public class ScoreF : MonoBehaviour
 
     public void Start()
     {
-        PlayerPrefs.SetInt("HighScore", punteggioInt);
-        punteggio.text = PlayerPrefs.GetInt("HighScore").ToString();
+        PlayerPrefs.SetInt("Score3", punteggioInt);
+        punteggio.text = PlayerPrefs.GetInt("Score3").ToString();
 
     }
 
     private void Update()
     {
 
-        punteggio.text = PlayerPrefs.GetInt("HighScore").ToString();
+        punteggio.text = PlayerPrefs.GetInt("Score3").ToString();
     }
 
 

@@ -16,25 +16,25 @@ public class Score : MonoBehaviour
 
     public void Start()
     {
-        PlayerPrefs.SetInt("Score", punteggioInt);
-        punteggio.text = PlayerPrefs.GetInt("Score").ToString();
+        PlayerPrefs.SetInt("Score1", punteggioInt);
+        punteggio.text = PlayerPrefs.GetInt("Score1").ToString();
         tempo.text = tempoInt.ToString();
         Time.timeScale = 1f;
     }
 
     public void isHighscore()
     {
-        int record = PlayerPrefs.GetInt("Highscore");
-        if (record < PlayerPrefs.GetInt("Score"))
+        int record = PlayerPrefs.GetInt("Highscore1");
+        if (record < PlayerPrefs.GetInt("Score1"))
         {
-            PlayerPrefs.SetInt("Highscore", PlayerPrefs.GetInt("Score"));
+            PlayerPrefs.SetInt("Highscore1", PlayerPrefs.GetInt("Score1"));
         }
     }
 
 
     private void Update()
     {
-        punteggio.text = PlayerPrefs.GetInt("Score").ToString();
+        punteggio.text = PlayerPrefs.GetInt("Score1").ToString();
         
         if(Time.time > secondi)
         {

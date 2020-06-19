@@ -11,6 +11,9 @@ public class Healt : MonoBehaviour
     public Image[] hearts;
     public GameObject vinto;
     public GameObject perso;
+
+    public GameObject browser;
+    public GameObject finestre;
     //public Sprite spr;
 
     // Start is called before the first frame update
@@ -21,6 +24,17 @@ public class Healt : MonoBehaviour
         hearts[1].enabled = true;
         hearts[2].enabled = true;
     }
+
+
+    public void isHighscore()
+    {
+        int record = PlayerPrefs.GetInt("Highscore2");
+        if (record < PlayerPrefs.GetInt("Score2"))
+        {
+            PlayerPrefs.SetInt("Highscore2", PlayerPrefs.GetInt("Score2"));
+        }
+    }
+
 
     // Update is called once per frame
     void Update()
@@ -38,6 +52,11 @@ public class Healt : MonoBehaviour
             hearts[2].enabled = false;
             //SceneManager.LoadScene("Mappa");
             Time.timeScale = 0;
+
+            browser.SetActive(false);
+            finestre.SetActive(false);
+            isHighscore();
+
             perso.SetActive(true);
 
         }
