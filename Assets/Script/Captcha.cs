@@ -19,7 +19,7 @@ public class Captcha : MonoBehaviour
     {
         captchaGen();
         //captchaGen2(0);
-        InvokeRepeating("captchaGen2", 1, 3f);
+        InvokeRepeating("captchaGen2", 1, 1f);
     }
 
     // Update is called once per frame
@@ -38,7 +38,7 @@ public class Captcha : MonoBehaviour
         {
             c = Random.Range(0,22);
             x++;
-            coord = new Vector2(x, 2);
+            coord = new Vector2(x, 2.9f);
            // t = Random.Range(0, 3);
             t = 0;
             arr[i] = c;
@@ -61,7 +61,7 @@ public class Captcha : MonoBehaviour
     {
         char[] lett = {'A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'};
         //l.GetComponent<TextMeshProUGUI>().text = lett[Random.Range(0, 23)].ToString();
-        l.GetComponent<TextMeshProUGUI>().text = lett[arr[Random.Range(0,5)]].ToString();
+        l.GetComponent<TextMeshProUGUI>().text = lett[arr[Random.Range(0,4)]].ToString();
         //Instantiate(l, GetRandomPosition(), Quaternion.identity);
         l2 =Instantiate(l, new Vector2(2.35f, -2.2f), Quaternion.identity);
         l2.transform.SetParent(GameObject.FindGameObjectWithTag("Canvas").transform, false);

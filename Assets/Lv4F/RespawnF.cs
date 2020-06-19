@@ -28,6 +28,6 @@ public class RespawnF : MonoBehaviour
         //Instantiate(roccia, transform.position, Quaternion.identity);
 
 
-        Instantiate(roccia, new Vector2(3.08f, -4.56f), Quaternion.identity);
+        Instantiate(roccia, new Vector2(3.8f, -3.08f), Quaternion.identity);
     }
 }

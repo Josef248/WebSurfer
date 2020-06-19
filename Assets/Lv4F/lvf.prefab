@@ -135,7 +135,10 @@ MonoBehaviour:
   lettere1: []
   lettere2: []
   l: {fileID: 0}
+  l2: {fileID: 0}
   player: 0
+  txt: []
+  scoretxt: {fileID: 0}
 --- !u!222 &9082127971533316604
 CanvasRenderer:
   m_ObjectHideFlags: 0

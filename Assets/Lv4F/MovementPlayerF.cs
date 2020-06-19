@@ -14,15 +14,21 @@ public class MovementPlayerF : Captcha
     public bool player;
     int counter;
     public TextMeshProUGUI[] txt;
+    public TextMeshProUGUI scoretxt;
+    public GameObject vinto;
+    public GameObject perso;
     // Start is called before the first frame update
     void Start()
     {
+        Time.timeScale = 1;
         player = false;
     }
 
     // Update is called once per frame
     void Update()
     {
+        scoretxt.text = score.ToString();
+
         if (Input.GetKey(KeyCode.Space) && player == false)
         {
             GetComponent<Rigidbody2D> ().velocity = new Vector3(0,10,0);
@@ -50,10 +56,6 @@ public class MovementPlayerF : Captcha
             player = false;
         }
 
-        if (coll.gameObject.tag == "Respawn")
-        {
-
-        }
         /*if (coll.gameObject.tag == "lettera")
         {
             Debug.Log("aooo");
@@ -72,6 +74,21 @@ public class MovementPlayerF : Captcha
             verifica(c);
             //Destroy(this);
         }
+
+        if (coll.gameObject.tag == "Respawn")
+        {
+            Healt.healt--;
+            Destroy(coll.gameObject);
+            if (Healt.healt <= 0)
+            {
+                Time.timeScale = 0;
+                PlayerPrefs.SetInt("Score4", score);
+                isHighscore();
+                perso.SetActive(true);
+                //SceneManager.LoadScene("lv4G");
+            }
+        }
+
     }
 
     public void verifica(char a)
@@ -82,17 +99,32 @@ public class MovementPlayerF : Captcha
 
         if (a == lett[arr[i]])
         {
-            score++;
+            score = score + 1000; ;
             //strVerify[i] = lett[arr[i]];
             c = lett[arr[i]];
             txt[i].text = c.ToString();
+            i++;
+            if (i==4)
+            {
+                Time.timeScale = 0;
+                PlayerPrefs.SetInt("Score4", score);
+                isHighscore();
+                vinto.SetActive(true);
+            }
         }
         else
         {
-            SceneManager.LoadScene("lv4G");
+            score = score - 500;
         }
+    }
 
-        i++;
+    public void isHighscore()
+    {
+        int record = PlayerPrefs.GetInt("Highscore4");
+        if (record < PlayerPrefs.GetInt("Score4"))
+        {
+            PlayerPrefs.SetInt("Highscore4", PlayerPrefs.GetInt("Score4"));
+        }
     }
 
 }
