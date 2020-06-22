@@ -270,13 +270,33 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1196182138
+--- !u!1001 &1429224566
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3615335059848750637, guid: cbf462f7cf91db34ca41440003209623,
+        type: 3}
+      propertyPath: m_Text
+      value: 'Ben fatto!
+
+        Hai affrontato una situazione difficile, proprio
+        quella di una serie di pagine che si aprono a tua insaputa, e sei riuscito
+        a chiuderle tutte senza sbagliare!
+
+
+        Adesso hai capito, vero?
+
+        Quando
+        si aprono delle pagine che non volevi, sangue freddo, rimani calmo e trova
+        il simbolino giusto per chiuderle.
+
+
+        Ci dovrai fare l''abitudine,
+        durante la navigazione web ne incontrerai parecchie di queste situazioni.'
+      objectReference: {fileID: 0}
     - target: {fileID: 3615335060178265016, guid: cbf462f7cf91db34ca41440003209623,
         type: 3}
       propertyPath: m_Name
@@ -412,25 +432,65 @@ PrefabInstance:
       propertyPath: m_textInfo.pageCount
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3615335061470806474, guid: cbf462f7cf91db34ca41440003209623,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3615335061470806474, guid: cbf462f7cf91db34ca41440003209623,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3615335061470806474, guid: cbf462f7cf91db34ca41440003209623,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3615335061470806474, guid: cbf462f7cf91db34ca41440003209623,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3615335061470806474, guid: cbf462f7cf91db34ca41440003209623,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 400
+      objectReference: {fileID: 0}
+    - target: {fileID: 3615335061470806474, guid: cbf462f7cf91db34ca41440003209623,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 70
+      objectReference: {fileID: 0}
     - target: {fileID: 3615335061470806477, guid: cbf462f7cf91db34ca41440003209623,
         type: 3}
       propertyPath: m_textInfo.characterCount
-      value: 0
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3615335061470806477, guid: cbf462f7cf91db34ca41440003209623,
         type: 3}
       propertyPath: m_textInfo.wordCount
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3615335061470806477, guid: cbf462f7cf91db34ca41440003209623,
         type: 3}
       propertyPath: m_textInfo.lineCount
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3615335061470806477, guid: cbf462f7cf91db34ca41440003209623,
         type: 3}
       propertyPath: m_textInfo.pageCount
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3615335061470806477, guid: cbf462f7cf91db34ca41440003209623,
+        type: 3}
+      propertyPath: m_text
+      value: REDIRECT
+      objectReference: {fileID: 0}
+    - target: {fileID: 3615335061470806477, guid: cbf462f7cf91db34ca41440003209623,
+        type: 3}
+      propertyPath: m_firstOverflowCharacterIndex
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cbf462f7cf91db34ca41440003209623, type: 3}
