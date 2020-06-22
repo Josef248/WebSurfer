@@ -76,6 +76,16 @@ public class EnenmyContr2 : MonoBehaviour
 		}*/
 	}
 
+
+	public void isHighscore()
+	{
+		int record = PlayerPrefs.GetInt("Highscore3");
+		if (record < PlayerPrefs.GetInt("Score3"))
+		{
+			PlayerPrefs.SetInt("Highscore3", PlayerPrefs.GetInt("Score3"));
+		}
+	}
+
 	//Funzione top
 	void funzioneF()
 	{
@@ -112,6 +122,8 @@ public class EnenmyContr2 : MonoBehaviour
 
 			Time.timeScale = 0f;
 			muri.SetActive(false);
+
+			isHighscore();
 
 			winner.SetActive(true);
 
