@@ -25,7 +25,7 @@ public class RandomWindows : Spawner
     // Update is called once per frame
     void Update()
     {
-        speed += (float)0.0005;
+        //speed += (float)0.0005;
         /*if ((Vector2)transform.position != targetPosition)
         {*/
             transform.position = Vector2.MoveTowards(transform.position, worldCenterOfMass, speed * Time.deltaTime);

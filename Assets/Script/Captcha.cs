@@ -31,7 +31,7 @@ public class Captcha : MonoBehaviour
 
     void captchaGen()
     {
-        float x = -3f;
+        float x = -2.7f;
         int c;
         int t;
         Vector2 coord = new Vector2(x, 2.9f);

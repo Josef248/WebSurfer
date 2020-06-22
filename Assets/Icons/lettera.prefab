@@ -172,8 +172,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lettere: []
-  lettere1: []
-  lettere2: []
   l: {fileID: 0}
 --- !u!50 &7107706376973965026
 Rigidbody2D:
