@@ -2338,13 +2338,23 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 9143240438477545596, guid: 85582fafdadfc5c4bb4056bdaeb8ae8a,
+      objectReference: {fileID: 4146429964513894472}
+    - target: {fileID: 190841135071364286, guid: be469591f131da144aa99f7ec518219b,
         type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetActive
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: be469591f131da144aa99f7ec518219b, type: 3}
 --- !u!224 &6810706143867082331 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 190841134712315957, guid: be469591f131da144aa99f7ec518219b,
+    type: 3}
+  m_PrefabInstance: {fileID: 6810706143867082330}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6810706143867082332 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 190841134712315956, guid: be469591f131da144aa99f7ec518219b,
     type: 3}
   m_PrefabInstance: {fileID: 6810706143867082330}
   m_PrefabAsset: {fileID: 0}
@@ -2565,8 +2575,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 9143240438477545596, guid: 85582fafdadfc5c4bb4056bdaeb8ae8a,
-          type: 3}
+      - m_Target: {fileID: 4146429964513894472}
         m_MethodName: SetActive
         m_Mode: 6
         m_Arguments:
@@ -2577,8 +2586,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 6639005309745929512, guid: 85582fafdadfc5c4bb4056bdaeb8ae8a,
-          type: 3}
+      - m_Target: {fileID: 6810706143867082332}
         m_MethodName: SetActive
         m_Mode: 6
         m_Arguments:
@@ -2588,18 +2596,6 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 9143240438611037328, guid: 85582fafdadfc5c4bb4056bdaeb8ae8a,
-          type: 3}
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
         m_CallState: 2
 --- !u!224 &9143240438521493236
 RectTransform:
