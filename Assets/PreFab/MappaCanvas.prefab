@@ -3965,6 +3965,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 9011683374517512927}
     m_Modifications:
+    - target: {fileID: 7773502624989810966, guid: 6771c13e877d07a44919fc7dee59503f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7773502625437717344, guid: 6771c13e877d07a44919fc7dee59503f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4078,6 +4083,21 @@ PrefabInstance:
     - target: {fileID: 7773502625437717345, guid: 6771c13e877d07a44919fc7dee59503f,
         type: 3}
       propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7773502626482495466, guid: 6771c13e877d07a44919fc7dee59503f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 363.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7773502626482495466, guid: 6771c13e877d07a44919fc7dee59503f,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 95
+      objectReference: {fileID: 0}
+    - target: {fileID: 7773502626482495466, guid: 6771c13e877d07a44919fc7dee59503f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
