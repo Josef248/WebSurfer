@@ -767,7 +767,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: "E' una metodologia utilizzata dai siti Web per capire se l'utente che
     sta visitando la pagina sia un robot o un umano.\n\nPer robot, intendiamo dei
-    \"bot\", ossia programmi che simulao il comportamente umano durante la navgazione
+    \"bot\", ossia programmi che simulano il comportamento umano durante la navgazione
     Web.\n\nUn CAPTCHA si presenta cos\xEC:"
 --- !u!224 &7318109929290806184
 RectTransform:
