@@ -12,7 +12,7 @@ public class RandomWindows : Spawner
     public float maxY;*/
     public Vector2 worldCenterOfMass;
 
-    Vector2 targetPosition;
+    //Vector2 targetPosition;
 
     public float speed;
 
@@ -26,11 +26,11 @@ public class RandomWindows : Spawner
     void Update()
     {
         speed += (float)0.0005;
-        if ((Vector2)transform.position != targetPosition)
-        {
+        /*if ((Vector2)transform.position != targetPosition)
+        {*/
             transform.position = Vector2.MoveTowards(transform.position, worldCenterOfMass, speed * Time.deltaTime);
-        }
-        /*else
+        /*}
+        else
         {
             targetPosition = GetRandomPosition();
         }*/

@@ -6,45 +6,57 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Concetto1.unity
+    guid: af0dcc9618e51d64bb77d7f42e2db891
+  - enabled: 1
+    path: Assets/Scenes/Concetto2.unity
+    guid: 686e581059f63984fa22ec8850603f31
+  - enabled: 1
+    path: Assets/Scenes/Concetto3.unity
+    guid: 8eb9da6c1792b6d4793010bd7cadc643
+  - enabled: 1
+    path: Assets/Scenes/Concetto4.unity
+    guid: 3b52cd8b20264fe4c928bb24c1ccc0bb
+  - enabled: 1
     path: Assets/Scenes/Home.unity
     guid: 6f85a919157064747b699a0b3b081203
-  - enabled: 1
-    path: Assets/Scenes/Mappa.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/Scenes/lv1.unity
     guid: 9f090573cbdee4443a3b72621a157331
   - enabled: 1
     path: Assets/Scenes/lv2.unity
     guid: e643c88c8c29b4045a9e2d01e074dc72
-<<<<<<< HEAD
   - enabled: 1
     path: Assets/Scenes/lv3.unity
-    guid: 9d48d000be6286241894242cd206b096
-=======
+    guid: 43e9c81bf488960439de6349f17d2f33
   - enabled: 1
-    path: Assets/Scenes/LV4G.unity
+    path: Assets/Scenes/lv4.unity
     guid: b80b80f20bf53ba4485e398fb7a28fa7
+  - enabled: 1
+    path: Assets/Scenes/Mappa.unity
+    guid: 07a79dc4a35787a478e6c43158500988
   - enabled: 1
     path: Assets/Scenes/SpiegazioneLv1.unity
     guid: ca7f30c9382e72d48b7c255d6833dd03
   - enabled: 1
     path: Assets/Scenes/SpiegazioneLv2.unity
-    guid: ec3e78b79beb21f4fbbd20b6e80aa21b
+    guid: a55ea3fdac133d44b8118d24c651a486
   - enabled: 1
     path: Assets/Scenes/SpiegazioneLv3.unity
     guid: 197fac5af4bf1db44aa9f59b716d02d6
   - enabled: 1
     path: Assets/Scenes/SpiegazioneLv4.unity
     guid: 77641bbd3683c7b4699534d21b92a272
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/lv3.unity
-    guid: 9d48d000be6286241894242cd206b096
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
->>>>>>> 1ec14dd208163a6a2d0ced77b67e942a47eff8d8
+    path: Assets/Scenes/TutorialLv1.unity
+    guid: 2cb5319fb987b544ba0139d92a4fba91
+  - enabled: 1
+    path: Assets/Scenes/TutorialLv2.unity
+    guid: 515e240d83d048441b728a260229be9a
+  - enabled: 1
+    path: Assets/Scenes/TutorialLv3.unity
+    guid: b8f29b7b17625894189fb77ff70fbf7c
+  - enabled: 1
+    path: Assets/Scenes/TutorialLv4.unity
+    guid: 59e726e9020e07d48a070b4bc2b58339
   m_configObjects: {}

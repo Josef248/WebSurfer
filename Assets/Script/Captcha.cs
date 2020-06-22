@@ -7,10 +7,11 @@ using TMPro;
 public class Captcha : MonoBehaviour
 {
     public GameObject[] lettere;
-    public GameObject[] lettere1;
-    public GameObject[] lettere2;
+    //public GameObject[] lettere1;
+    //public GameObject[] lettere2;
     public GameObject l;
-    public GameObject l2;
+    private GameObject l2;
+    private GameObject ogglettera;
     public static int[] arr = new int[10];
     //int pos = 0;
     //public TextMeshProUGUI l;
@@ -33,7 +34,7 @@ public class Captcha : MonoBehaviour
         float x = -3f;
         int c;
         int t;
-        Vector2 coord = new Vector2(x, 2);
+        Vector2 coord = new Vector2(x, 2.9f);
         for (int i = 0; i < 4; i++)
         {
             c = Random.Range(0,22);
@@ -45,15 +46,19 @@ public class Captcha : MonoBehaviour
             switch (t)
             {
                 case 0:
-                    Instantiate(lettere[c], coord, Quaternion.identity);
-                    break;
-                case 1:
-                    Instantiate(lettere1[c], coord, Quaternion.identity);
-                    break;
-                case 2:
-                    Instantiate(lettere2[c], coord, Quaternion.identity);
+                    ogglettera = Instantiate(lettere[c], coord, Quaternion.identity);
+                    //ogglettera.transform.SetParent(GameObject.FindGameObjectWithTag("test").transform,false);
+                    //ogglettera.transform.localScale = new Vector3(1, 1, 1);
                     break;
             }
+               /* case 1:
+
+                    ogglettera = Instantiate(lettere1[c], coord, Quaternion.identity);
+                    break;
+                case 2:
+                    ogglettera = Instantiate(lettere2[c], coord, Quaternion.identity);
+                    break;
+            }*/
         }
     }
 
@@ -63,7 +68,7 @@ public class Captcha : MonoBehaviour
         //l.GetComponent<TextMeshProUGUI>().text = lett[Random.Range(0, 23)].ToString();
         l.GetComponent<TextMeshProUGUI>().text = lett[arr[Random.Range(0,4)]].ToString();
         //Instantiate(l, GetRandomPosition(), Quaternion.identity);
-        l2 =Instantiate(l, new Vector2(2.35f, -2.2f), Quaternion.identity);
+        l2 =Instantiate(l, new Vector2(3.36f, 0), Quaternion.identity);
         l2.transform.SetParent(GameObject.FindGameObjectWithTag("Canvas").transform, false);
         //l2.transform.localScale = new Vector2(1,1);
         //pos++;

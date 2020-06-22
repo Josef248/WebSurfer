@@ -77,9 +77,9 @@ public class MovementPlayerF : Captcha
 
         if (coll.gameObject.tag == "Respawn")
         {
-            Healt.healt--;
+            Healt2.healt--;
             Destroy(coll.gameObject);
-            if (Healt.healt <= 0)
+            if (Healt2.healt == 0)
             {
                 Time.timeScale = 0;
                 PlayerPrefs.SetInt("Score4", score);
@@ -114,7 +114,10 @@ public class MovementPlayerF : Captcha
         }
         else
         {
-            score = score - 500;
+            if (score >= 500)
+            {
+                score = score - 500;
+            }
         }
     }
 

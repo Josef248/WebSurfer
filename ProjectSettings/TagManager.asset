@@ -9,6 +9,8 @@ TagManager:
   - Canvas
   - pg
   - lettera
+  - Background
+  - test
   layers:
   - Default
   - TransparentFX
@@ -48,4 +50,7 @@ TagManager:
     locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Foreground
+    uniqueID: 3536060003
     locked: 0
