@@ -346,6 +346,36 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 339858150101357229, guid: a40a2b19387de4d449fb146acfd1cf38,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 339858150101357229, guid: a40a2b19387de4d449fb146acfd1cf38,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 339858150101357229, guid: a40a2b19387de4d449fb146acfd1cf38,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 339858150101357229, guid: a40a2b19387de4d449fb146acfd1cf38,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 339858150101357229, guid: a40a2b19387de4d449fb146acfd1cf38,
+        type: 3}
+      propertyPath: m_textInfo.pageCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1745916541864051983, guid: a40a2b19387de4d449fb146acfd1cf38,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 400
+      objectReference: {fileID: 0}
     - target: {fileID: 6196282018391215129, guid: a40a2b19387de4d449fb146acfd1cf38,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
