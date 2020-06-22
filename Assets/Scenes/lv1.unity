@@ -371,6 +371,16 @@ PrefabInstance:
       propertyPath: m_textInfo.pageCount
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1232088140926262685, guid: a40a2b19387de4d449fb146acfd1cf38,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 890947536}
+    - target: {fileID: 1232088140926262685, guid: a40a2b19387de4d449fb146acfd1cf38,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: isHighscore
+      objectReference: {fileID: 0}
     - target: {fileID: 1745916541864051983, guid: a40a2b19387de4d449fb146acfd1cf38,
         type: 3}
       propertyPath: m_SizeDelta.x
