@@ -397,6 +397,51 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -1020
       objectReference: {fileID: 0}
+    - target: {fileID: 797301524240211453, guid: b8d43ba89f900cd45b56bd468e103ffd,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186223933399042674, guid: b8d43ba89f900cd45b56bd468e103ffd,
+        type: 3}
+      propertyPath: m_text
+      value: 'I creatori e ideatori del gioco WebSurfer:
+
+
+        Francesco Marcuccio
+
+        Giuseppe
+        Cesare Zizzo
+
+        Giuseppe Tutino
+
+
+        Audio e Immagini del seguente
+        gioco, sono liberi da copyright.
+
+
+        Grazie per aver giocato.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186223933399042674, guid: b8d43ba89f900cd45b56bd468e103ffd,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 191
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186223933399042674, guid: b8d43ba89f900cd45b56bd468e103ffd,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186223933399042674, guid: b8d43ba89f900cd45b56bd468e103ffd,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186223933399042674, guid: b8d43ba89f900cd45b56bd468e103ffd,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 28
+      objectReference: {fileID: 0}
     - target: {fileID: 1784210965572766348, guid: b8d43ba89f900cd45b56bd468e103ffd,
         type: 3}
       propertyPath: m_textInfo.characterCount
