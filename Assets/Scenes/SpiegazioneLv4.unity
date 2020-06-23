@@ -283,8 +283,8 @@ PrefabInstance:
       value: "Bravo, sei riuscito a scrivere la parola giusta senza sbagliare!\n\nEcco
         qua, hai appena affrontato un esempio di CAPTCHA, questi sono molto diffusi
         per garantire la sicurezza di una pagina Web.\n\nSe hai saputo riconoscere
-        queste lettere sarai capace anche di riscrivere anche parole apparentemente
-        pi\xF9 difficili di queste.\n\nNon ti preoccupare, a volte hai anche la possibilit\xE0
+        queste lettere sarai capace anche di riscrivere parole apparentemente pi\xF9
+        difficili di queste.\n\nNon ti preoccupare, a volte hai anche la possibilit\xE0
         di cambiare parola se ti sorgono dei dubbi sulle lettere.\n\n"
       objectReference: {fileID: 0}
     - target: {fileID: 3615335060178265016, guid: cbf462f7cf91db34ca41440003209623,

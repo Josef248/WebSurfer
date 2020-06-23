@@ -1580,7 +1580,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: senso orizontale, riparandosi sotto i MURI ed evitado i colpi NEMICI.
+  m_Text: senso orizzontale, riparandosi sotto i MURI ed evitando i colpi NEMICI.
 --- !u!1 &5145438069848570941
 GameObject:
   m_ObjectHideFlags: 0

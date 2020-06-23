@@ -345,7 +345,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "3 - I POP-UP aumenteranno la \n"
+  m_Text: '3 - I POP-UP aumenteranno
+
+'
 --- !u!222 &637638282
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -663,7 +665,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "loro velocit\xE0 nel tempo.\n"
+  m_Text: col trascorrere del tempo
 --- !u!222 &1340804919
 CanvasRenderer:
   m_ObjectHideFlags: 0
